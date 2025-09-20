@@ -13,7 +13,6 @@ public class ProthomAli {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("https://www.prothomalo.com/");
-        System.out.println("Mahade");
         //driver.findElement(By.partialLinkText("in inf")).click();
         Thread.sleep(3000);
         List<WebElement> elements = driver.findElements(By.tagName("a"));
